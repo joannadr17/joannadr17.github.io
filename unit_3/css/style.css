@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+body {
+	text-align: center;
+	background: url("http://imgur.com/SC0juSw.png");
+	background-size: cover;
+	color: #fff;
+	font-family: 'Libre Baskerville', serif;
+}
+hr{
+	width: 200px;
+}
+p {
+	font-size: 22px;
+}
