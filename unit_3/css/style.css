@@ -1,17 +1,11 @@
-<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
-=======
->>>>>>> origin/master
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 body {
 	text-align: center;
 	background: url("http://imgur.com/SC0juSw.png");
 	background-size: cover;
 	color: #fff;
-<<<<<<< HEAD
 	font-family: 'Libre Baskerville', serif;
-=======
-	font-family: Helvetica;
->>>>>>> origin/master
 }
 hr{
 	width: 200px;
