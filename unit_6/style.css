@@ -34,6 +34,7 @@ article {
 	padding: 20px;
 	float: left;
 	width: 30%;
+	height: 304px;
 }
 
 #right {
@@ -42,7 +43,7 @@ article {
 	padding: 20px;
 	float: left;
 	width: 60%;
-	height: 214px;
+	height: 304px;
 }
 
 .clearfix:after {
@@ -64,4 +65,8 @@ div {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
+}
+
+img {
+	width: 100%;
 }
