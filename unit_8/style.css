@@ -2,16 +2,19 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 * { margin:0; padding:0; box-sizing:border-box; }
 body { }
+p {margin: 10px 0;}
+ul {margin: 20px;}
 header {
 	background-color: #90C3D4;
 	border: 1px black solid;
+	font-size: 40px; 
 	padding: 20px;
 }
 
 nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
-	font-size: 40;
+	font-size: 40px;
 	padding: 20px;
 }
 
@@ -23,23 +26,21 @@ nav a {
 footer {
 	background-color: #E8C66A;
 	border: 1px black solid;
+	font-size: 40px;
 	padding: 20px;
 }
 
 div {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #90C3D4;
 	padding: 20px;
 }
 
 #two_column {
-	background-color: #FFB7CF;
 	border: 1px black solid;
 }
 
 #left {
 	background-color: #90C3D4;
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 25.998%;
@@ -47,7 +48,6 @@ div {
 
 #right {
 	background-color: #90C3D4;
-	border: 1px black solid;
 	padding: 20px;
 	float: left;
 	width: 74%;
@@ -67,4 +67,15 @@ div {
 
 @media screen and (max-width: 800px) {
   #right p{color:green !important;}
+  #left {
+	background-color: #90C3D4;
+	border: 1px black solid;
+	padding: 20px;
+	float: none;
+	width: 100%;
+}
+	#right {
+	float:none;
+	width: 100%
+	}
 }
